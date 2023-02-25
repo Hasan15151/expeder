@@ -12,6 +12,8 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
+	display: flex;
+	flex-direction: column;
 }
 nav {
 	display: flex;
@@ -49,15 +51,20 @@ nav img {
 .nav-links ul li:hover::after {
 	width: 100%;
 }
+
+/* arkib changed this */
 .text-box {
-	width: 90%;
+	flex: 1;
 	color: white;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	flex-direction: column;
 }
+
 .text-box h1 {
 	font-size: 112px;
 }
@@ -263,15 +270,16 @@ p {
 	background: #33bea0;
 	transition: 0.5s;
 }
+.box {
+	transition: 0.5s;
+}
 .box1:hover {
 	filter: brightness(115%);
 	transform: scale(1.04);
-	transition: 0.5s;
 }
 .box2:hover {
 	transform: scale(1.04);
 	filter: brightness(115%);
-	transition: 0.5s;
 }
 .box3:hover {
 	transform: scale(1.04);
@@ -775,15 +783,20 @@ footer {
 }
 
 .Rabout {
-	margin: auto;
 	width: 100%;
 	background-image: linear-gradient(to right, #0e0e0e, transparent),
 		url(Images/Bali.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
-	padding: 100px;
+	padding: 1rem;
 	color: white;
+	height: 50vh;
+
+	/* arkib change */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .Rabout h3 {
 	font-size: 4vw;
@@ -843,4 +856,36 @@ footer {
 }
 .service-content h3:hover {
 	color: #33bea0;
+}
+
+/* about us floating card section */
+.image-card {
+	background-image: url(Images/Logo\ bk.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 1rem;
+	padding: 1rem;
+	padding-top: 25%;
+	position: relative;
+}
+
+.floating-card {
+	background-color: #fff;
+	padding: 1rem;
+	box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 1rem;
+}
+@media only screen and (min-width: 900px) {
+	.image-card {
+		padding-top: 1rem;
+		max-width: calc(100% - 200px);
+	}
+	.floating-card {
+		max-width: 400px;
+		margin-left: auto;
+		transform: translate(50%, 25%);
+
+		/* position: absolute; */
+	}
 }
