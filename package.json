@@ -1,0 +1,11 @@
+{
+  "name": "expeder",
+  "version": "1.0.0",
+  "description": "A travel website ",
+  "main": "main.js",
+  "scripts": {
+    "test": "Exp"
+  },
+  "author": "Hasan 2708",
+  "license": "ISC"
+}
