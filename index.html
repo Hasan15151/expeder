@@ -1,256 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Expeder</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Expeder</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 
-<!---BOOTSTRAP file-->
-<link rel="stylesheet" href="CSS/bootstrap.min.css">
-<link rel="stylesheet" href="Font 6/css/all.css">
+		<!---BOOTSTRAP file-->
+		<link rel="stylesheet" href="CSS/bootstrap.min.css" />
+		<link rel="stylesheet" href="Font 6/css/all.css" />
+	</head>
+	<body>
+		<section class="header" id="header">
+			<nav>
+				<a href="index.html"><img src="Images/Logo2.png" /></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
 
-<style>
-  *{
-    border: 1px solid rgba(255, 0, 0, 0.185);
-  }
-</style>
+					<ul>
+						<li><a href="#DESTINATION">DESTINATIONS</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="Travel.html">TRAVEL</a></li>
+						<li><a href="Contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<div class="hamburger">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div class="text-box">
+				<h1 class="dispaly-1">Plan your Getaway</h1>
+				<p>
+					Life-changing moments are only a few seconds away. Expeder is designed
+					<br />
+					for discerning private clientele, offering one-of-a-kind and
+					customised travel experiences <br />
+					for a tailor-made getaway.
+				</p>
+				<a href="Contact.html" class="hero-btn">Travel Now</a>
+			</div>
+		</section>
 
-</head>
-<body>
-<section class="header" id="header">
-       <nav>
-        <a href="index.html"><img src="Images/Logo2.png"></a>
-        <div class="nav-links" id="navLinks">
-          
-            <i class="fa fa-times" onclick="hideMenu()"></i>
+		<!---DESTINATIONS--->
 
-          <ul>
-            <li><a href="#DESTINATION">DESTINATIONS</a> </li>
-            <li><a href="about.html">ABOUT</a> </li>
-            <li><a href="Travel.html">TRAVEL</a> </li>
-            <li><a href="Contact.html">CONTACT</a> </li>
-          </ul>
-          </div>
-          <i class="fa fa-bars"  onclick="showMenu()"></i>
-      </nav>
-       <div class="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-       <div class="text-box">
-        <h1 class="dispaly-1">Plan your Getaway</h1>
-        <p>Life-changing moments are only a few seconds away. Expeder is designed <br> for discerning private clientele, offering one-of-a-kind and customised travel experiences <br> for a tailor-made getaway.</p>
-        <a href="Contact.html" class="hero-btn">Travel Now</a>
-       </div>
-      
-      
-</section>
+		<section class="DESTINATIONS" id="DESTINATION">
+			<h5>Top Selling</h5>
+			<h1>Popular Destinations</h1>
+			<p>
+				Expeder provides you with a comprehensive and up-to-date guide on where
+				to go, what to do, and how to make the most out of your travels. <br />a
+				Whether you are looking for a city break, beach holiday, or cultural
+				adventure, we have got you covered with our curated lists of <br />
+				the most exciting and sought-after destinations.
+			</p>
 
-<!---DESTINATIONS--->
+			<div class="box-container">
+				<div class="box box1">
+					<div class="content">
+						<h3>Sri Lanka</h3>
+						<p>
+							Sri Lanka is a beautiful island nation located in the Indian
+							Ocean, south of India.
+						</p>
+						<a href="Contact.html" class="btn">Book Now</a>
+					</div>
+				</div>
 
-<section class="DESTINATIONS" id="DESTINATION">
-  
-  <h5>Top Selling</h5>
-  <h1>Popular Destinations</h1>
-  <p>Expeder provides you with a comprehensive and up-to-date guide on where to go, what to do, and how to make the most out of your travels. <br>a Whether you are looking for a city break, beach holiday, or cultural adventure, we have got you covered with our curated lists of <br> the most exciting and sought-after destinations.</p>
+				<div class="box box2">
+					<div class="content">
+						<h3>Maldives</h3>
+						<p>
+							The Maldives is a stunning island known for its turquoise waters,
+							pristine beaches.
+						</p>
+						<a href="Contact.html" class="btn">Book Now</a>
+					</div>
+				</div>
 
-   <div class="box-container">
-        
-    <div class="box box1">
-      
-      <div class="content">
-        <h3>Sri Lanka</h3>
-        <p>Sri Lanka is a beautiful island nation located in the Indian Ocean, south of India.</p>
-        <a href="Contact.html" class="btn">Book Now</a>
-      </div>
-    </div>
+				<div class="box box3">
+					<div class="content">
+						<h3>Seychelles</h3>
+						<p>
+							Seychelles is a breathtaking island nation known for its clear
+							waters, luxury resorts
+						</p>
+						<a href="Contact.html" class="btn">Book Now</a>
+					</div>
+				</div>
 
-    <div class="box box2">
-      
-      <div class="content">
-        <h3>Maldives</h3>
-        <p>The Maldives is a stunning island known for its turquoise waters, pristine beaches.</p>
-        <a href="Contact.html" class="btn">Book Now</a>
-      </div>
-    </div>
+				<div class="box box4">
+					<div class="content">
+						<h3>Singapore</h3>
+						<p>
+							Singapore is a vibrant city known for its modern architectures
+						</p>
+						<a href="Contact.html" class="btn">Book Now</a>
+					</div>
+				</div>
 
-    <div class="box box3">
-      
-      <div class="content">
-        <h3>Seychelles</h3>
-        <p>Seychelles is a breathtaking island nation known for its clear waters, luxury resorts</p>
-        <a href="Contact.html" class="btn">Book Now</a>
-      </div>
-    </div>
+				<div class="box box5">
+					<div class="content">
+						<h3>India</h3>
+						<p>
+							India is a diverse country known for its rich culture, history,
+							and cuisine.
+						</p>
+						<a href="Contact.html" class="btn">Book Now</a>
+					</div>
+				</div>
 
-    
-    <div class="box box4">
-      
-      <div class="content">
-        <h3>Singapore</h3>
-        <p>Singapore is a vibrant city known for its modern architectures</p>
-        <a href="Contact.html" class="btn">Book Now</a>
-      </div>
-    </div>
+				<div class="box box6">
+					<div class="content">
+						<h3>Malaysia</h3>
+						<p>
+							Malaysia is a multicultural country known for its beautiful
+							beaches and rainforests.
+						</p>
+						<a href="Contact.html" class="btn">Book Now</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    
-    <div class="box box5">
-      
-      <div class="content">
-        <h3>India</h3>
-        <p>India is a diverse country known for its rich culture, history, and cuisine.
-         </p>
-        <a href="Contact.html" class="btn">Book Now</a>
-      </div>
-    </div>
+		<!---Short About-->
+		<section class="Sabout" id="Sabout">
+			<div class="sabout">
+				<h3>
+					Expeder allows you to spend your time <br />
+					living your holiday rather than booking it.
+				</h3>
+			</div>
+		</section>
 
-    
-    <div class="box box6">
-      
-      <div class="content">
-        <h3>Malaysia</h3>
-        <p>Malaysia is a multicultural country known for its beautiful beaches and rainforests. </p>
-        <a href="Contact.html" class="btn">Book Now</a>
-      </div>
-    </div>
+		<!---How to getaway--->
+		<section class="getaway" id="getaway">
+			<h1>How to Get Away</h1>
 
+			<div class="row">
+				<div class="getaway-col">
+					<div class="getaway-img">
+						<img src="Images/booking.png" alt="" />
+					</div>
+					<h3>Book Your Escape</h3>
+					<p>
+						Choose a destination, room size, and dates. When you book, we'll
+						email you the precise address of your accommodation. Enjoy!
+					</p>
+				</div>
 
-   </div>
+				<div class="getaway-col">
+					<div class="getaway-img">
+						<img src="Images/coffee-pot.png" alt="" />
+					</div>
+					<h3>We'll do the Rest</h3>
+					<p>
+						We’ll be in touch with everything you’ll need for your Getaway. Our
+						team is available all day, every day by email and text should you
+						need anything.
+					</p>
+				</div>
 
-</section>
+				<div class="getaway-col">
+					<div class="getaway-img">
+						<img src="Images/wifi.png" alt="" />
+					</div>
+					<h3>Disconnect to Reconnect</h3>
+					<p>
+						Lock your phone away, reconnect with people who matter most, and
+						spend some time in nature. You'll have everything you need to unwind
+						completely.
+					</p>
+				</div>
+			</div>
+		</section>
 
+		<!---footer-->
 
-<!---Short About-->
-<section class="Sabout" id="Sabout">
-  <div class="sabout">
-      <h3>Expeder allows you to spend your time <br> living your holiday rather than booking it.</h3>
-      
-  </div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-box">
+							<img class="navbar-brand" src="Images/Logo2.png" alt="" />
+							<p>Life-changing moments are only a few seconds away.</p>
+							<h3>We Accect</h3>
+							<div class="card-area">
+								<i class="fab fa-cc-visa"></i>
+								<i class="fab fa-cc-amex"></i>
+								<i class="fab fa-cc-mastercard"></i>
+								<i class="fab fa-cc-paypal"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-box">
+							<h2>Menu</h2>
+							<ul>
+								<li><a href="#DESTINATION">DESTINATIONS</a></li>
+								<li><a href="about.html">ABOUT</a></li>
+								<li><a href="Travel.html">TRAVEL</a></li>
+								<li><a href="Contact.html">CONTACT</a></li>
+							</ul>
+						</div>
+					</div>
 
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-box">
+							<h2>Newsletter</h2>
+							<p>
+								Subscribe now for hand-picked getaway deals. Inspiration and the
+								latest travel tips, straight to your inbox
+							</p>
+							<div class="input-group mb-3">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Email address"
+									aria-label="Enter your Email ..."
+									aria-describedby="basic-addon2"
+								/>
+								<span class="input-group-text" id="basic-addon2"
+									><i class="fa fa-long-arrow-right"></i
+								></span>
+							</div>
+							<h2>Follow us on</h2>
+							<p class="socials">
+								<i class="fab fa-facebook"></i>
+								<i class="fab fa-instagram"></i>
+								<i class="fab fa-linkedin"></i>
+								<i class="fab fa-twitter"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-</section>
+		<!--copyright-->
+		<div class="copyright">
+			<p>&#169; Hasan 2708 All Rights Reserved.</p>
+		</div>
 
-<!---How to getaway--->
-<section class="getaway" id="getaway">
-  <h1>How to Get Away</h1>
+		<!-----JavaScript Toggle Menu  --->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu() {
+				navLinks.style.right = "0px";
+			}
 
-
-  <div class="row">
-    <div class="getaway-col">
-      <div class="getaway-img">
-        <img src="Images/booking.png" alt="">
-      </div>
-      <h3>Book Your Escape</h3>
-      <p>Choose a destination, room size, and dates. When you book, we'll email you the precise address of your accommodation. Enjoy!</p>
-    </div>
-
-    <div class="getaway-col">
-      <div class="getaway-img">
-        <img src="Images/coffee-pot.png" alt="">
-      </div>
-      <h3>We'll do the Rest</h3>
-      <p>We’ll be in touch with everything you’ll need for your Getaway. Our team is available all day, every day by email and text should you need anything.</p>
-    </div>
-
-    <div class="getaway-col">
-      <div class="getaway-img">
-        <img src="Images/wifi.png" alt="">
-      </div>
-      <h3>Disconnect to Reconnect</h3>
-      <p>Lock your phone away, reconnect with people who matter most, and spend some time in nature. You'll have everything you need to unwind completely.</p>
-    </div>
-
-  </div>
-
-</section>
-
-
-
-
-
-<!---footer-->
-
-<footer>
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-3 col-sm-6">
-              <div class="single-box">
-                  <img class="navbar-brand" src="Images/Logo2.png" alt="">
-              <p>Life-changing moments are only a few seconds away.</p>
-              <h3>We Accect</h3>
-              <div class="card-area">
-                      <i class="fab fa-cc-visa"></i>
-                      <i class="fab fa-cc-amex"></i>
-                      <i class="fab fa-cc-mastercard"></i>
-                      <i class="fab fa-cc-paypal"></i>
-              </div>
-              </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-              <div class="single-box">
-                  <h2>Menu</h2>
-                  <ul>
-                    <li><a href="#DESTINATION">DESTINATIONS</a> </li>
-                    <li><a href="about.html">ABOUT</a> </li>
-                    <li><a href="Travel.html">TRAVEL</a> </li>
-                    <li><a href="Contact.html">CONTACT</a> </li>
-                  </ul>
-              </div>                    
-          </div>
-          
-          <div class="col-lg-3 col-sm-6">
-              <div class="single-box">
-                  <h2>Newsletter</h2>
-                  <p>Subscribe now for hand-picked getaway deals. Inspiration and the latest travel tips, straight to your inbox</p>
-                  <div class="input-group mb-3">
-                      <input type="text" class="form-control" placeholder="Email address" aria-label="Enter your Email ..." aria-describedby="basic-addon2">
-                      <span class="input-group-text" id="basic-addon2"><i class="fa fa-long-arrow-right"></i></span>
-                  </div>
-                  <h2>Follow us on</h2>
-                  <p class="socials">
-                      <i class="fab fa-facebook"></i>
-                      <i class="fab fa-instagram"></i>
-                      <i class="fab fa-linkedin"></i>
-                      <i class="fab fa-twitter"></i>
-                  </p>
-              </div>
-              
-          </div>
-      </div>
-  </div>
-  
-</footer>
-
- <!--copyright-->
- <div class="copyright">
-   <p>&#169 Hasan 2708 All Rights Reserved.</p> 
- </div>
-
-
-
-<!-----JavaScript Toggle Menu  --->
-<script>
- 
-  var navLinks = document.getElementById("navLinks");
-  function showMenu(){
-    navLinks.style.right = "0";
-
-  }
-
-  function hideMenu(){
-    navLinks.style.right = "-200px";
-    
-  }
-
-
-</script>
-<script defer src="main.js"></script>
-<script src="JS/bootstrap.min.js"></script>
-</body>
+			function hideMenu() {
+				navLinks.style.right = "-200px";
+			}
+		</script>
+		<script defer src="main.js"></script>
+		<script src="JS/bootstrap.min.js"></script>
+	</body>
 </html>
